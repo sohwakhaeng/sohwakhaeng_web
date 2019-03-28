@@ -73,6 +73,12 @@ input, select, textarea {
 }
 
 
+/* login */
+
+#loginForm {
+	margin-left: 35%;
+}
+
 
 /* Basic */
 
