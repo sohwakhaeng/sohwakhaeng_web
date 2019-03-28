@@ -51,6 +51,115 @@ table {
 	border-spacing: 0;
 }
 
+
+/*==================
+      SLIDER SECTION
+  ====================*/
+  #mu-slider {
+    display: inline;
+    float: left;
+    width: 100%;
+    position: relative;
+  }
+  #mu-slider .mu-slider-area {
+    display: inline;
+    float: left;
+    width: 100%;
+  }
+  #mu-slider .mu-slider-area .mu-top-slider {
+    display: inline;
+    float: left;
+    width: 100%;
+  }
+  #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single {
+    display: inline;
+    float: left;
+    position: relative;
+    width: 100%;
+  }
+  #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single:after {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9;
+  }
+  #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single img {
+    width: 100%;
+  }
+  #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single .mu-top-slider-content {
+    position: absolute;
+    left: 15%;
+    top: 33%;
+    right: 15%;
+    text-align: center;
+    z-index: 99;
+  }
+  #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-small-title {
+    font-family: "Tangerine", cursive;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-title {
+    color: #fff;
+    font-size: 70px;
+    line-height: 90px;
+  }
+  #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single .mu-top-slider-content p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 0 30px;
+  }
+  #mu-slider .mu-slider-area .mu-top-slider .slick-prev::before {
+    content: "\f177";
+    font-family: fontAwesome;
+  }
+  #mu-slider .mu-slider-area .mu-top-slider .slick-next::before {
+    content: "\f178";
+    font-family: fontAwesome;
+  }
+  #mu-slider .mu-slider-area .mu-top-slider .slick-prev,
+  #mu-slider .mu-slider-area .mu-top-slider .slick-next {
+    background-color: transparent;
+    border: 2px solid #888;
+    height: 60px;
+    top: 50%;
+    width: 70px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  #mu-slider .mu-slider-area .mu-top-slider .slick-prev::before,
+  #mu-slider .mu-slider-area .mu-top-slider .slick-next::before {
+    color: #888;
+  }
+  #mu-slider .mu-slider-area .mu-top-slider .slick-prev:hover, #mu-slider .mu-slider-area .mu-top-slider .slick-prev:focus,
+  #mu-slider .mu-slider-area .mu-top-slider .slick-next:hover,
+  #mu-slider .mu-slider-area .mu-top-slider .slick-next:focus {
+    color: #fff;
+  }
+  #mu-slider .mu-slider-area .mu-top-slider .slick-prev:hover::before, #mu-slider .mu-slider-area .mu-top-slider .slick-prev:focus::before,
+  #mu-slider .mu-slider-area .mu-top-slider .slick-next:hover::before,
+  #mu-slider .mu-slider-area .mu-top-slider .slick-next:focus::before {
+    color: #fff;
+  }
+  #mu-slider .mu-slider-area .mu-top-slider .slick-prev {
+    left: 20px;
+  }
+  #mu-slider .mu-slider-area .mu-top-slider .slick-next {
+    right: 20px;
+  }
+
+/*여기까지*/
+
 body {
 	-webkit-text-size-adjust: none;
 }
