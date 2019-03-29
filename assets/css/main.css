@@ -3174,7 +3174,7 @@ input, select, textarea {
 	.wrapper {
 		padding: 6em 0 4em 0;
 	}
-
+		
 		.wrapper.style2 {
 			background: #e44c65;
 		}
@@ -3343,6 +3343,11 @@ input, select, textarea {
 	}
 
 /* Header */
+
+	#start_bg {
+		background-color: #e76278;
+	}
+
 
 	#page-wrapper {
 		padding-top: 3.5em;
