@@ -70,7 +70,12 @@ input, select, textarea {
 /* login */
 
 #loginForm {
-	margin-left: 35%;
+	margin-left: 38%;
+	margin-top: -5%;
+}
+
+#phone{
+	margin-left: -5%;
 }
 
 
