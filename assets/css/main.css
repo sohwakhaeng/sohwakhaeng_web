@@ -1,12 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
-/*
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -80,6 +74,8 @@ input, select, textarea {
 }
 
 
+
+
 /* Basic */
 
 	html {
@@ -118,15 +114,14 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
 		color: #e44c65;
 		text-decoration: none;
 	}
 
-		a:hover {
-			color: #e44c65 !important;
-			border-bottom-color: transparent;
-		}
+	a:hover {
+		color: #e44c65 !important;
+		border-bottom-color: transparent;
+	}
 
 	strong, b {
 		color: #ffffff;
