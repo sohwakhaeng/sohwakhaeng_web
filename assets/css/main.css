@@ -265,6 +265,10 @@ input, select, textarea {
 
 /* Row */
 
+#checkbtn{
+	margin-left: 27%;
+}
+
 #sendnum{
 	width : 100%;
 }
