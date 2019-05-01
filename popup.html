@@ -16,14 +16,37 @@
         <div id="main" class="wrapper style">
             <div class="container">
                 <header class="major">
-                    <img src="images/logo.png">
-                    <p>시작하시려면 아래 버튼을 눌러주세요</p>
-
-                    <a href="start.html"><input type="button" value="시작하기" class="fit primary" style = "width: 75%;" /></a>
+                    
+                    <p>위치/소음 측정 권한에 동의하려면 버튼을 눌러주세요.</p>
+                    
+                    <form>
+                        <a href="start.html"><input type="submit" value="동의 후 시작" class="fit primary" style = "width: 75%;" /></a>
+                    </form>
                 </header>
+
+
+                <center><div id="noiseing">
+                        <img src="images/wifi.png" >
+                        <h3>소음 측정 중 ...</h3> 
+                        <p>15분동안 소음을 측정합니다.</p>
+                </div></center> 
+
+
             </div>
         </div>
 
+    <script>
+    
+    window.onsubmit = agree;
+
+    function agree(){
+        document.getElementById("noiseing").style.display="block";
+        return false;
+    }
+    
+    
+    </script>
 </body>
 
 </html>
+

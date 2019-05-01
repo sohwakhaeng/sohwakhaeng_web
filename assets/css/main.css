@@ -78,6 +78,9 @@ input, select, textarea {
 	margin-left: 50%;
 }
 
+#noiseing{
+	display: none;
+}
 
 
 /* Basic */
