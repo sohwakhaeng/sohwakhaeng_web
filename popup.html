@@ -40,8 +40,25 @@
     window.onsubmit = agree;
 
     function agree(){
-        document.getElementById("noiseing").style.display="block";
-        return false;
+
+
+         if (navigator.geolocation) { // GPS를 지원하면
+            navigator.geolocation.getCurrentPosition(function(position) {
+            alert(position.coords.latitude + ' ' + position.coords.longitude); // 위도와 경도 
+            document.getElementById("noiseing").style.display="block"; // 숨겨둔 아이콘 보여주기
+           
+        }, function(error) {
+            console.error(error);
+        }, {
+            enableHighAccuracy: false,
+            maximumAge: 0,
+            timeout: Infinity
+        });
+        } else {
+            alert('GPS를 지원하지 않습니다');
+        }
+
+         return false;
     }
     
     
