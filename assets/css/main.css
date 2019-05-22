@@ -1,6 +1,11 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
-
+@font-face { font-family: 'yg-jalnan';
+	 src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); 
+	font-weight: normal; font-style: normal; }
+@font-face { font-family: 'MyLotteBold';
+	 src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.0/MyLotteBold.woff') format('woff');
+		 font-weight: normal; font-style: normal; }
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -110,7 +115,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Roboto", Helvetica, sans-serif;
+		font-family: 'yg-jalnan';
 		font-size: 15pt;
 		font-weight: 100;
 		line-height: 1.75em;
@@ -126,7 +131,7 @@ input, select, textarea {
 	}
 
 	a:hover {
-		color: #e44c65 !important;
+		color: #67a69e !important;
 		border-bottom-color: transparent;
 	}
 
@@ -1690,7 +1695,7 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: #e44c65;
+			background: #fff;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
@@ -1827,7 +1832,7 @@ input, select, textarea {
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: 'yg-jalnan';
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -1900,7 +1905,7 @@ input, select, textarea {
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: 'yg-jalnan';
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -1917,7 +1922,7 @@ input, select, textarea {
 			.icon.alt:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: 'yg-jalnan';
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -1929,7 +1934,7 @@ input, select, textarea {
 			}
 
 		.icon.major {
-			background: #272833;
+			background: #67a69e;
 			border-radius: 100%;
 			cursor: default;
 			display: inline-block;
@@ -1951,7 +1956,7 @@ input, select, textarea {
 				.icon.major.alt:before {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
+					font-family: 'yg-jalnan';
 					font-style: normal;
 					font-weight: normal;
 					text-transform: none !important;
@@ -2609,7 +2614,7 @@ input, select, textarea {
 			.wrapper.style2 input[type="button"]:active,
 			.wrapper.style2 .button:hover,
 			.wrapper.style2 .button:active {
-				background-color: rgba(255, 255, 255, 0.075) !important;
+				background-color: #78ceba !important;
 				box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5) !important;
 				color: #ffffff !important;
 			}
@@ -2618,7 +2623,7 @@ input, select, textarea {
 			.wrapper.style2 input[type="reset"]:active,
 			.wrapper.style2 input[type="button"]:active,
 			.wrapper.style2 .button:active {
-				background-color: rgba(255, 255, 255, 0.25) !important;
+				background-color: #78ceba !important;
 			}
 
 			.wrapper.style2 input[type="submit"].primary,
@@ -2636,7 +2641,7 @@ input, select, textarea {
 				.wrapper.style2 input[type="button"].primary:active,
 				.wrapper.style2 .button.primary:hover,
 				.wrapper.style2 .button.primary:active {
-					background-color: rgba(255, 255, 255, 0.075) !important;
+					background-color:#78ceba  !important;
 					box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5) !important;
 					color: #ffffff !important;
 				}
@@ -2645,7 +2650,7 @@ input, select, textarea {
 				.wrapper.style2 input[type="reset"].primary:active,
 				.wrapper.style2 input[type="button"].primary:active,
 				.wrapper.style2 .button.primary:active {
-					background-color: rgba(255, 255, 255, 0.25) !important;
+					background-color:#78ceba !important;
 				}
 
 		.wrapper.fade-down > .container {
@@ -2703,7 +2708,7 @@ input, select, textarea {
 /* Dropotron */
 
 	.dropotron {
-		background: rgba(39, 40, 51, 0.965);
+		background: #78ceba ;
 		border-radius: 4px;
 		box-shadow: 0 0.075em 0.35em 0 rgba(0, 0, 0, 0.125);
 		list-style: none;
@@ -2730,7 +2735,7 @@ input, select, textarea {
 			}
 
 			.dropotron > li.active > a, .dropotron > li.active > span {
-				color: #e44c65;
+				color: #78ceba ;
 			}
 
 		.dropotron.level-0 {
@@ -2769,7 +2774,7 @@ input, select, textarea {
 	}
 
 	#header {
-		background: rgba(39, 40, 51, 0.965);
+		background: #78ceba;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
 		height: 3.5em;
@@ -2825,7 +2830,7 @@ input, select, textarea {
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
-						color: #e44c65;
+						color: #78ceba;
 					}
 
 					#header nav ul li > ul {
@@ -2846,8 +2851,7 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: fixed;
-		background-color: #272833;
-		background-image: url("../../images/banner.jpg");
+		background-color: #78ceba;
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -2939,7 +2943,7 @@ input, select, textarea {
 			#footer .icons .icon.alt:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: 'yg-jalnan';
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -3278,7 +3282,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #272833;
+				background: #78c5ba;
 				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 			}
 
@@ -3310,14 +3314,14 @@ input, select, textarea {
 					#titleBar .toggle:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
-						font-family: FontAwesome;
+						font-family: 'yg-jalnan';
 						font-style: normal;
 						font-weight: normal;
 						text-transform: none !important;
 					}
 
 					#titleBar .toggle:before {
-						background: #e44c65;
+						background: #78c5ba;
 						color: rgba(255, 255, 255, 0.5);
 						content: '\f0c9';
 						display: block;
