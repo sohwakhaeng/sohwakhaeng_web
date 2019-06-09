@@ -1963,7 +1963,7 @@ input, select, textarea {
 				}
 
 				.icon.major.alt:before {
-					color: #272833 !important;
+					color: #67a69e !important;
 					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 				}
 
@@ -2748,7 +2748,7 @@ input, select, textarea {
 				-webkit-transform: rotate(45deg);
 				-ms-transform: rotate(45deg);
 				transform: rotate(45deg);
-				background: #272833;
+				background: #67a69e;
 				content: '';
 				display: block;
 				height: 1em;
@@ -2931,7 +2931,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #272833;
+		background: #67a69e;
 		padding: 6em 0;
 		text-align: center;
 	}
@@ -2950,7 +2950,7 @@ input, select, textarea {
 			}
 
 			#footer .icons .icon.alt:before {
-				color: #272833 !important;
+				color: #67a69e !important;
 				text-shadow: 1px 0 0 rgba(255, 255, 255, 0.5), -1px 0 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(255, 255, 255, 0.5);
 			}
 
