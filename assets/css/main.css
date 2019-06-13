@@ -170,10 +170,6 @@ em, i {
 	font-style: italic;
 }
 
-p {
-	margin: 0 0 2em 0;
-}
-
 h1, h2, h3, h4, h5, h6 {
 	color: #ffffff;
 	font-weight: 300;
@@ -2597,12 +2593,12 @@ align-items: stretch;
 	}
 
 	.style3 {
-		padding: 2.5em 0 0 0;
+		padding: 1.5em 0 0 0;
 		background-color: #EFEFEF;
 	}
 	.style3 .header {
 		padding : 2em 0 1.5em 0;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 		text-align: center;
 		background-color: #284C70;
 	}

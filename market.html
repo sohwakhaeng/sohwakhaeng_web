@@ -15,22 +15,28 @@
 
         <style type = "text/css">
             img{
-                width: 100px;
-                height: 100px;
+                width: 130px;
+                height: 130px;
             }
             .border{
-                background-color: white;
-                padding : 5px;
-                border-radius: 5px;
-                margin-bottom : 10px;
+                color : #000;
+                background-color: #fff;
+                margin : 15px;
+                height: 140px;
+                width: 400px;
+                box-shadow: 3px 2px 0 #000;
+                float: left;
             }
-            p{
-                color : black;
-                margin : 5px;
+            .list-place-img{
+                display: inline-block;
             }
-            strong{
-                color : black;
-                font-weight: 1000;
+            .list-place-text{
+                width: 180px;
+                height: 130px;
+                top: 0;
+                display: inline-block;
+                margin-left : 10px;
+                border : red 1px solid;
             }
         </style>
     </head>
@@ -54,19 +60,31 @@
         <section  class="wrapper style2 special fade" id="market">
             <div class="container">
                 <div class = "border">
-                    <img src = "images/market01.jpg">
-                    <p><strong>밀라네</strong></p>
-                    <p>서울 종로구 율곡로 220</p>
+                    <div class = "list-place-img">
+                        <img src = "images/market01.jpg">
+                    </div>
+                    <div class = "list-place-text">
+                        <p>밀라네</p>
+                        <p>서울 종로구 율곡로 220</p> 
+                    </div>
                 </div>
                 <div class = "border">
+                    <div class = "list-place-img">
                         <img src = "images/market02.jpg">
-                    <p><strong>먹방스튜디오</strong></p>
-                    <p>서울 종로구 이화장1나길 17 1층</p>
+                    </div>
+                    <div class = "list-place-text">
+                        <p>먹방스튜디오</p>
+                        <p>서울 종로구 이화장1나길 17 1층</p> 
+                    </div>
                 </div>
                 <div class = "border">
+                    <div class = "list-place-img">
                         <img src = "images/market03.jpg">
-                    <p><strong>슬로스텝</strong></p>
-                    <p>서울 종로구 이화장1나길 17 1층</p>
+                    </div>
+                    <div class = "list-place-text">
+                        <p>슬로스텝</p>
+                        <p>서울 종로구 이화장1나길 17 1층</p> 
+                    </div>
                 </div>
             </div>
         </section>
