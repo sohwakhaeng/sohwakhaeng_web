@@ -152,7 +152,7 @@ a {
 	-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-	color: #e44c65;
+	color: #E46948;
 	text-decoration: none;
 }
 
@@ -2611,6 +2611,9 @@ align-items: stretch;
 	.wrapper {
 		padding: 6em 0 4em 0;
 	}
+		.wrapper.style.main{
+			color : #fff;
+		}
 		.wrapper.style p{
 			background-color : #EFEFEF;
 			color : #0C0727;
